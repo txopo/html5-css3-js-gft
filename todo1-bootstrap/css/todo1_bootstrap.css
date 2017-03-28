@@ -1,0 +1,12 @@
+
+.navbar-brand{ background: url(../img/bootstrap.png) center / contain no-repeat; }
+.navbar{ margin-bottom: 0px; }
+
+.jumbotron{
+  background-image: url(../img/background_cs.png);
+  background-repeat: repeat-x;
+  background-position: left center;
+}
+.colorgris{ background-color: #eee; }
+.form-inline{ margin-bottom: 10px; }
+#galeriaFotos img{ width: 150px; margin: 10px;}

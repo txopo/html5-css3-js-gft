@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/todo1_bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"></a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#parrafoEjemplo">Parrafo de ejemplo</a></li>
+          <li><a href="#galeriaFotos">Discos de Los Planetas</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<div class="jumbotron">
+  <div class="container colorgris">
+    <h1>TODO 1 de Bootstrap</h1>
+    <h3>Primer ejemplo para el curso de Bootstrap en el que vemos una pagina básica con columnas, formularios, etc...</h3>
+
+    <form class="form-inline">
+      <div class="form-group">
+        <label for="etiqueta1">Tu nombre</label>
+        <input type="text" class="form-control" id="etiqueta1" placeholder="Nombre del ejercicio">
+      </div>
+      <div class="form-group">
+        <label for="etiquetaEmail">Email</label>
+        <input type="email" class="form-control" id="etiquetaEmail" placeholder="algo@algo.com">
+      </div>
+      <button type="submit" class="btn btn-default">Enviar</button>
+    </form>
+
+  </div> <!-- container gris -->
+</div> <!-- jumbotron -->
+
+
+<div class="row" id="parrafoEjemplo">
+    <div class="col-xs-10 col-xs-offset-1">
+      <h3>Inicio del parrafo de ejemplo...</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu arcu nec magna facilisis egestas. Curabitur bibendum vitae ex vel gravida. Aenean sodales magna sit amet dui molestie, sit amet semper elit elementum. Phasellus vel velit faucibus, euismod enim non, pretium arcu. Duis lacinia odio vitae elit accumsan, id pharetra ligula luctus. Vivamus eget lorem in diam dictum posuere. Integer tortor felis, viverra vitae congue in, commodo sit amet urna. Integer tristique purus vel eros accumsan porttitor. Nullam ac nibh metus. In quis ultricies risus. Nulla in consequat tellus. Quisque quis nulla scelerisque, condimentum velit non, faucibus velit. Nulla eget purus eu sem mollis bibendum sit amet quis nisl. In placerat mi non ex dignissim egestas. Ut consequat ante velit, at mollis ligula elementum at. Praesent vitae mi et tortor sagittis blandit non at dolor. Vivamus vel ullamcorper magna. Aenean sed magna lorem. Vestibulum tempor lorem mi. Donec dignissim quis purus at posuere.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu arcu nec magna facilisis egestas. Curabitur bibendum vitae ex vel gravida. Aenean sodales magna sit amet dui molestie, sit amet semper elit elementum. Phasellus vel velit faucibus, euismod enim non, pretium arcu. Duis lacinia odio vitae elit accumsan, id pharetra ligula luctus. Vivamus eget lorem in diam dictum posuere. Integer tortor felis, viverra vitae congue in, commodo sit amet urna. Integer tristique purus vel eros accumsan porttitor. Nullam ac nibh metus. In quis ultricies risus. Nulla in consequat tellus. Quisque quis nulla scelerisque, condimentum velit non, faucibus velit. Nulla eget purus eu sem mollis bibendum sit amet quis nisl. In placerat mi non ex dignissim egestas. Ut consequat ante velit, at mollis ligula elementum at. Praesent vitae mi et tortor sagittis blandit non at dolor. Vivamus vel ullamcorper magna. Aenean sed magna lorem. Vestibulum tempor lorem mi. Donec dignissim quis purus at posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu arcu nec magna facilisis egestas. Curabitur bibendum vitae ex vel gravida. Aenean sodales magna sit amet dui molestie, sit amet semper elit elementum. Phasellus vel velit faucibus, euismod enim non, pretium arcu. Duis lacinia odio vitae elit accumsan, id pharetra ligula luctus. Vivamus eget lorem in diam dictum posuere. Integer tortor felis, viverra vitae congue in, commodo sit amet urna. Integer tristique purus vel eros accumsan porttitor. Nullam ac nibh metus. In quis ultricies risus. Nulla in consequat tellus. Quisque quis nulla scelerisque, condimentum velit non, faucibus velit. Nulla eget purus eu sem mollis bibendum sit amet quis nisl. In placerat mi non ex dignissim egestas. Ut consequat ante velit, at mollis ligula elementum at. Praesent vitae mi et tortor sagittis blandit non at dolor. Vivamus vel ullamcorper magna. Aenean sed magna lorem. Vestibulum tempor lorem mi. Donec dignissim quis purus at posuere.</p>
+    </div>
+</div>
+
+<!--  gallery with rows of 5, 3 and a minimum of 2 images -->
+<div class="container" id="galeriaFotos">
+  <div class="row">
+    <div class="col-xs-10 col-xs-offset-1
+              col-sm-10 col-sm-offset-1
+              col-md-8 col-md-offset-2
+              col-lg-10 col-md-offset-1">
+        <h3>Discos de los planetas</h3>
+        <h5>(estos sí que van al Primavera Sound y no al Gijon...)</h3>
+
+        <img src="img/encuentros_con_entidades.jpg" class="img-circle">
+  <!--        <div class="caption"><p>encuentros_con_entidades</p></div>
+  -->
+        <img src="img/La-Leyenda-Del-Espacio.jpg" class="img-circle">
+  <!--        <div class="caption"><p>La-Leyenda-Del-Espacio</p></div>
+  -->
+        <img src="img/pop.jpg" class="img-circle">
+  <!--        <div class="caption"><p>pop</p></div>
+  -->
+        <img src="img/super8.jpg" class="img-circle">
+  <!--        <div class="caption"><p>super8</p></div>
+  -->
+        <img src="img/Una_Opera_Egipcia-Frontal.jpg" class="img-circle">
+  <!--        <div class="caption"><p>Una_Opera_Egipcia</p></div>
+  -->
+        <img src="img/unasemana.jpg" class="img-circle">
+  <!--        <div class="caption"><p>Una semana en el motor de un autobus</p></div>
+  -->
+        <img src="img/zona.jpg" class="img-circle">
+  <!--        <div class="caption"><p>Zona temporalmente autónoma</p></div>
+  -->
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+
+How could I add a class named 'nuevaClase' to an element (div for example) named 'elemento1' with simple JavaScript?
+ 
+a/ document.getElementById("elemento1").setAttribute('class', 'nuevaClase');
+
+b/ var nuevaClase = document.createElement("class");
+    var nombreClase = document.createTextNode("nuevaClase");
+    nuevaClase.appendChild(nombreClase);
+    document.getElementById("elemento1").appendChild(nuevaClase);
+
+c/ document.getElementById("elemento1").className += " nuevaClase";
+d/ document.getElementById("elemento1").class += " nuevaClase";
+
+The correct answer is c/

@@ -1,0 +1,9 @@
+
+It is possible to remove a onclick event listener which triggers a function named 'handler'?
+
+a/ No, listeners binded to a onclick event cannot be removed.
+b/ Yes, using: element.removeEventListener('onclick', handler, false);
+c/ Yes, using: element.removeEventListener('onclick');
+d/ Yes, using: element.removeEventListener('onclick', 'handler()');
+
+The correct answer is b/

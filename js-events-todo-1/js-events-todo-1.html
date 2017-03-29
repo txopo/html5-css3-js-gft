@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <body>
+
+    <p>Make a web page with two buttons, if button1 is pushed an alert with the
+    message "Button 1 pushed" must appear and if button2 is pushed an alert
+    with the message "Button 2 pushed". Try to do it with only one handler function
+    </p>
+
+    <div>
+      <button id="boton1">Pulsa el maravilloso boton 1</button>
+      <button id="boton2">Este es el boton 2</button>
+    </div>
+
+  </body>
+  <script>
+    function handleClick(evento){
+      //alert("This message pops up thanks to addEventListener!");
+      if(this.id == 'boton1'){
+        alert('Se ha pulsado el boton 1, conocido como \''+this.innerHTML+'\'');
+      }
+      if(this.id == 'boton2'){
+        alert('Se ha pulsado el boton 2, conocido como \''+this.innerHTML+'\'');
+      }
+
+    }
+    var boton1 = document.getElementById("boton1");
+    boton1.addEventListener("click", handleClick, false);
+
+    var boton2 = document.getElementById("boton2");
+    boton2.addEventListener("click", handleClick, false);
+
+  </script>
+</html>

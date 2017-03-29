@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <body>
+
+    <h2>Open console in Chrome DevTools and write in the text area!!!</h2>
+
+    <div>
+      <textarea id="textoMostrarConsola"></textarea>
+    </div>
+
+  </body>
+  <script>
+    var textarea = document.getElementById("textoMostrarConsola");
+    textarea.addEventListener("keypress", function(evento){
+      console.log(evento.key);
+    })
+
+  </script>
+</html>
